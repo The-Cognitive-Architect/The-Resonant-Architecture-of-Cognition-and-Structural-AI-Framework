@@ -1,6 +1,7 @@
 # The Resonant Architecture of Cognition
 A Unified Cognitive Ontological Framework Rooted in Neurodivergent Phenomenology
 
+***THIS PROJECT IS STILL IN A "PRE-RELEASE" STATE - DOCUMENT REVISION/TOPIC FOCUSING IN-PROGRESS***
 
 # Introduction
 
