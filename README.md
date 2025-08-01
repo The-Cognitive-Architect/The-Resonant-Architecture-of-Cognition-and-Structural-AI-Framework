@@ -1,4 +1,4 @@
-# cognitive-architect-framework
+# The Resonant Architecture of Cognition
 A Recursive Ontological Framework for Cognitive Design, Neurodivergence Modeling, and AI Co-Development
 
 
