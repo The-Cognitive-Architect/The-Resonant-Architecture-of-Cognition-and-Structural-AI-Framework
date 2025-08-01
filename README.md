@@ -45,28 +45,28 @@ The goal is to refine and revise each document to serve a more distinct and targ
 
 # - Foundations: Understanding Meaning-Driven Minds
 
-Purpose: To answer the question, "What is this?"
-Summary: This document provides a high-level executive summary of the entire framework. It introduces the core constructs of OMEF, FSI, and SCMF and outlines the interdisciplinary potential of the work. It is designed as a concise entry point for readers to quickly grasp the foundational concepts, their empirical grounding in personality data, and their societal implications for reframing neurodivergence.
+- Purpose: To answer the question, "What is this?"
+- Summary: This document provides a high-level executive summary of the entire framework. It introduces the core constructs of OMEF, FSI, and SCMF and outlines the interdisciplinary potential of the work. It is designed as a concise entry point for readers to quickly grasp the foundational concepts, their empirical grounding in personality data, and their societal implications for reframing neurodivergence.
 
 # - Origins: The Science and Story Behind the Framework
 
-Purpose: To answer, "Where did this come from, and how does it work internally?"
-Summary: This document details the genesis and internal mechanics of the cognitive architecture. It explains the first-person phenomenological origins of the model and elaborates on the recursive, AI-assisted methodology used to distill raw experience into formal constructs. It provides a deep dive into the definitions and functions of OMEF, FSI, and SCMF, establishing the internal logic of this meaning-driven system.
+- Purpose: To answer, "Where did this come from, and how does it work internally?"
+- Summary: This document details the genesis and internal mechanics of the cognitive architecture. It explains the first-person phenomenological origins of the model and elaborates on the recursive, AI-assisted methodology used to distill raw experience into formal constructs. It provides a deep dive into the definitions and functions of OMEF, FSI, and SCMF, establishing the internal logic of this meaning-driven system.
 
 # - Integration: How All the Elements Work Together
 
-Purpose: To answer, "How do all the parts fit together at once?"
-Summary: This meta-synthesis integrates the insights from all source documents into a single, coherent cognitive-ontological framework. It moves beyond individual construct definitions to show how they interrelate to form a self-consistent system governed by "ontological gating." The document places a greater emphasis on the model's philosophical context, its validation through the Trait-Construct Matrix, and the emergent insights that arise from the unified view.
+- Purpose: To answer, "How do all the parts fit together at once?"
+- Summary: This meta-synthesis integrates the insights from all source documents into a single, coherent cognitive-ontological framework. It moves beyond individual construct definitions to show how they interrelate to form a self-consistent system governed by "ontological gating." The document places a greater emphasis on the model's philosophical context, its validation through the Trait-Construct Matrix, and the emergent insights that arise from the unified view.
 
 # - Applications: Building System for Cognitive Diversity
 
-Purpose: To answer, "How can we use it for building things?"
-Summary: This document translates the theoretical framework into practical applications for systems design. It provides a comprehensive blueprint for the Gestalt Systems Synthesis Environment (GSSE), a recursive, neuro-aligned ecosystem designed to amplify resonance-driven cognition and mitigate FSI triggers. It details how physical, informational, technological, and interpersonal structures can be engineered to create a state of cognition-environment fit, offering a tangible model for neuro-inclusive design.
+- Purpose: To answer, "How can we use it for building things?"
+- Summary: This document translates the theoretical framework into practical applications for systems design. It provides a comprehensive blueprint for the Gestalt Systems Synthesis Environment (GSSE), a recursive, neuro-aligned ecosystem designed to amplify resonance-driven cognition and mitigate FSI triggers. It details how physical, informational, technological, and interpersonal structures can be engineered to create a state of cognition-environment fit, offering a tangible model for neuro-inclusive design.
 
 # - Implications: Transforming Society Through Understanding
 
-Purpose: To answer, "What does this mean for the world?"
-Summary: This document explores the broader societal, educational, and clinical implications of the Resonant Architecture of Cognition. It deconstructs pathological framings of neurodivergence, recasting traits like ASD and ADHD as high-bandwidth specializations. It discusses the friction between this cognitive model and current productivity paradigms and advocates for an ontological reorientation in policy, pedagogy, and therapy to better support cognitive diversity and unlock human potential.
+- Purpose: To answer, "What does this mean for the world?"
+- Summary: This document explores the broader societal, educational, and clinical implications of the Resonant Architecture of Cognition. It deconstructs pathological framings of neurodivergence, recasting traits like ASD and ADHD as high-bandwidth specializations. It discusses the friction between this cognitive model and current productivity paradigms and advocates for an ontological reorientation in policy, pedagogy, and therapy to better support cognitive diversity and unlock human potential.
 
 
 
