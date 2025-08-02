@@ -46,42 +46,42 @@ The goal is to refine and revise each document to serve a more distinct and targ
 # 📘 Document Guide
 -This repository contains a complete and evolving cognitive-ontological framework developed through recursive human–AI co-modeling. Each document answers a key question about the system’s foundation, function, application, and implications. The documents are arranged in a logical sequence for understanding the framework’s emergence and utility.
 
-# 00 – The Resonant Architecture of Cognition
+*** 00 – The Resonant Architecture of Cognition ***
 -Purpose: To introduce the overarching system and its conceptual genesis
 -Role: The high-level entry point and framing document
 -Summary: This opening manifesto outlines the entire architecture. It defines the core constructs—OMEF, FSI, SCMF—and introduces the Recursive LLM Co-Modeling Protocol and the GSSE prototype. It positions the project as a neuro-inclusive alternative to deficit models and offers a top-level overview for new readers.
 
-# 01 – Foundations: Understanding Meaning-Driven Minds
+*** 01 – Foundations: Understanding Meaning-Driven Minds ***
 -Purpose: To answer, “What is this?”
 -Role: Establishes conceptual clarity and empirical grounding
 -Summary: This document refines the definitions of the core constructs and articulates the philosophical and psychological basis for meaning-driven cognition. It introduces interdisciplinary value and societal implications, positioning the framework as a practical tool for cognitive design and inclusion.
 
-# 02 – Origins: The Science and Story Behind the Framework
+*** 02 – Origins: The Science and Story Behind the Framework ***
 -Purpose: To answer, “Where did this come from, and how does it work internally?”
 -Role: Explains the first-person genesis and methodology
 -Summary: This document recounts the recursive, AI-assisted development process. It integrates phenomenological insight, trait-based data, and symbolic abstraction into a formal system. It also introduces the philosophical departure from Cartesian models and grounds the constructs empirically via the Big Five.
 
-# 03 – Integration: How All the Elements Work Together
+*** 03 – Integration: How All the Elements Work Together ***
 -Purpose: To answer, “How do all the parts fit together at once?”
 -Role: The meta-synthesis and unifying structure
 -Summary: This synthesis brings together previously separated documents into a coherent, logically unified framework. It emphasizes the systemic interactions between OMEF, FSI, and SCMF, and explores philosophical resonance (e.g., Heideggerian situatedness). The model is positioned as a foundation for post-dualist cognition and neurodivergent system design.
 
-# 04 – Applications: Building Systems for Cognitive Diversity
+*** 04 – Applications: Building Systems for Cognitive Diversity ***
 -Purpose: To answer, “How can we use it for building things?”
 -Role: The applied systems design document
 -Summary: This blueprint introduces the Gestalt Systems Synthesis Environment (GSSE) as a practical implementation of the framework. It extends the theory into physical, technological, and interpersonal design domains, outlining specific strategies to align environments with resonance-driven cognition.
 
-# 05 – Blueprint: Designing the Future Through Transient Expertise
+*** 05 – Blueprint: Designing the Future Through Transient Expertise ***
 -Purpose: To answer, “How can we redesign knowledge, labor, and identity using this model?”
 -Role: Introduces a future-facing cognitive paradigm
 -Summary: This document defines Transient Expertise—a model of temporary, high-fidelity specialization made possible by the Resonant Architecture. It explores the rise of an insight economy, resonance-based talent alignment, and AI-augmented cognition. Key systemic proposals include Resonance Matching Engines, dynamic credentialing, and the role of Orchestration Engineers in post-industrial institutions.
 
-# 06 – Implications: Transforming Society Through Understanding
+*** 06 – Implications: Transforming Society Through Understanding ***
 -Purpose: To answer, “What does this mean for the world?”
 -Role: Maps theoretical insights to societal transformation
 -Summary: This text explores policy, education, clinical practice, and human–AI interaction through the lens of the framework. It frames the subject as an “Ontological Architect” and reframes neurodivergence as a high-bandwidth specialization. It advocates for structural redesign of environments, institutions, and metrics to unlock latent human potential.
 
-# 07 – Phenomenology: A Day Inside the Fog
+*** 07 – Phenomenology: A Day Inside the Fog ***
 -Purpose: To answer, “What is it like to live with this architecture?”
 -Role: A narrative phenomenological companion
 -Summary: This deeply personal, introspective narrative illustrates the lived experience of resonance-gated cognition. Through a detailed moment-to-moment account, it demonstrates the non-volitional gating mechanisms of OMEF and FSI, offering a visceral understanding of how motivation, inertia, and breakthrough unfold in real time.
