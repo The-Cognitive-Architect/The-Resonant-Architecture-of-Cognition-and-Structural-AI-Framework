@@ -51,9 +51,18 @@ These documents represent a cohesive but evolving system. They may contain conce
 
 This repository contains the following documents, each addressing a foundational question.
 
+
 ---
 
-### **00 – The Resonant Architecture of Cognition**
+### **00_a – The TL;DR**
+- **Purpose:** Introduce the overarching system and its genesis, updated to include recent work, written for a "Reddit" audience 
+- **Role:** The "TL;DR" of the collection  
+- **Summary:** A summary of the project as of 08/02/2024 @ 3:30pm CST
+
+
+---
+
+### **00_b – The Resonant Architecture of Cognition**
 - **Purpose:** Introduce the overarching system and its genesis  
 - **Role:** High-level framing document  
 - **Summary:** Defines the core constructs (OMEF, FSI, SCMF), the Recursive LLM Co-Modeling Protocol, and introduces the GSSE as a prototype environment.
