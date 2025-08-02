@@ -43,7 +43,7 @@ The goal is to refine and revise each document to serve a more distinct and targ
 
 
 
-#📘 Document Guide
+# 📘 Document Guide
 -This repository contains a complete and evolving cognitive-ontological framework developed through recursive human–AI co-modeling. Each document answers a key question about the system’s foundation, function, application, and implications. The documents are arranged in a logical sequence for understanding the framework’s emergence and utility.
 
 # 00 – The Resonant Architecture of Cognition
