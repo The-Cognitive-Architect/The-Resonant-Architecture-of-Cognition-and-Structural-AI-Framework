@@ -1,4 +1,5 @@
-**THIS PROJECT IS STILL IN A "PRE-RELEASE" STATE — DOCUMENT REVISION/TOPIC FOCUSING IN-PROGRESS**
+**THIS PROJECT IS STILL IN A "PRE-RELEASE" STATE - DOCUMENT REVISION/TOPIC FOCUSING IN-PROGRESS**
+**Seeking feedback from AI communities, ideal for xAI-style truth-seeking paradigms.**
 
 # The Resonant Architecture of Cognition & Structural AI Framework
 *A Unified Cognitive-Ontological and AGI Blueprint Rooted in Neurodivergent Phenomenology*
@@ -45,7 +46,7 @@ This is an evolving system with potential conceptual overlaps from recursive gen
 ---
 
 > *“I exist, therefore I become.”*  
-> — A.J.
+> - A.J.
 
 ---
 
@@ -59,52 +60,52 @@ This is an evolving system with potential conceptual overlaps from recursive gen
 
 ### Core Framework Documents
 
-- **00_a – The TL;DR.pdf**  
+- **00_a_The_TL;DR.pdf**  
   - *Purpose:* Quick intro and genesis for a broad audience.  
   - *Role:* High-level summary.  
   - *Summary:* Overview as of mid-2025.
 
-- **00_b – The Resonant Architecture of Cognition.pdf**  
+- **00_b_The_Resonant_Architecture_of_Cognition.pdf**  
   - *Purpose:* Introduce the cognitive framework and its origins.  
   - *Role:* Framing document.  
   - *Summary:* Defines OMEF, FSI, SCMF, and GSSE.
 
-- **01 – Foundations_Understanding Meaning-Driven Minds.pdf**  
+- **01_Foundations_Understanding_Meaning-Driven_Minds.pdf**  
   - *Purpose:* Clarify the meaning-driven model.  
   - *Role:* Conceptual grounding.  
   - *Summary:* Details interdisciplinary value for neurodivergent minds.
 
-- **02 – Origins_The Science and Story Behind the Framework.pdf**  
+- **02_Origins_The Science_and_Story_Behind_the_Framework.pdf**  
   - *Purpose:* Trace the first-person development process.  
   - *Role:* Methodological insight.  
   - *Summary:* Links to Big Five data and philosophy.
 
-- **03 – Integration_How All the Elements Work Together.pdf**  
+- **03_Integration_How_All_the_Elements_Work_Together.pdf**  
   - *Purpose:* Synthesize the system’s components.  
   - *Role:* Meta-structure.  
   - *Summary:* Highlights emergent properties.
 
-- **04 – Applications_Building Systems for Cognitive Diversity.pdf**  
+- **04_Applications_Building_Systems_for_Cognitive_Diversity.pdf**  
   - *Purpose:* Apply the framework to real-world systems.  
   - *Role:* Implementation guide.  
   - *Summary:* Uses GSSE for diverse settings.
 
-- **05 – Blueprint_Designing the Future Through Transient Expertise.pdf**  
+- **05_Blueprint_Designing_the_Future_Through_Transient_Expertise.pdf**  
   - *Purpose:* Redesign knowledge and labor.  
   - *Role:* Future paradigm.  
   - *Summary:* Introduces Transient Expertise and Resonance Matching.
 
-- **06 – Implications_Transforming Society Through Understanding.pdf**  
+- **06_Implications_Transforming_Society_Through_Understanding.pdf**  
   - *Purpose:* Explore societal impact.  
   - *Role:* Transformation map.  
   - *Summary:* Reshapes education, policy, and AI.
 
-- **07 – Phenomenology_A Day Inside the Fog.pdf**  
+- **07_Phenomenology_A_Day_Inside_the_Fog.pdf**  
   - *Purpose:* Narrate lived experience.  
   - *Role:* Relatable insight.  
   - *Summary:* Shows OMEF and FSI in daily life.
 
-- **08 – Big Five Evaluation.pdf**  
+- **08_Big_Five_Evaluation.pdf**  
   - *Purpose:* Author's Big Five results.  
   - *Role:* Supplemental documentation.  
   - *Summary:* Contains detailed explanations of results.
