@@ -1,44 +1,46 @@
-***THIS PROJECT IS STILL IN A "PRE-RELEASE" STATE — DOCUMENT REVISION/TOPIC FOCUSING IN-PROGRESS***
+**THIS PROJECT IS STILL IN A "PRE-RELEASE" STATE — DOCUMENT REVISION/TOPIC FOCUSING IN-PROGRESS**
 
-# The Resonant Architecture of Cognition
-*A Unified Cognitive Ontological Framework Rooted in Neurodivergent Phenomenology*
-
----
-
-## Introduction
-
-This collection of documents presents a novel cognitive-ontological framework, termed the **Resonant Architecture of Cognition**, derived from an intensive, first-person case study of a neurodivergent individual with traits of ASD and ADHD. This work challenges traditional, deficit-based models of cognition by proposing a self-consistent, alternative architecture where executive function is not driven by conventional willpower, but is instead modulated by an intrinsic alignment with personal meaning, coherence, and authenticity.
+# The Resonant Architecture of Cognition & Structural AI Framework
+*A Unified Cognitive-Ontological and AGI Blueprint Rooted in Neurodivergent Phenomenology*
 
 ---
 
-## Core Constructs
+## Overview
 
-The framework is built upon three core constructs that describe a cognitive system in which meaning serves as the primary catalyst for action and thought:
+This repository presents a pioneering cognitive-ontological framework, the **Resonant Architecture of Cognition**, derived from a first-person case study of a neurodivergent individual with ASD and ADHD traits. It challenges deficit-based models by proposing a meaning-driven system where executive function aligns with coherence and purpose. Building on this, the project extends into **Structural AI (StrAI)**, a deterministic AGI paradigm designed to replace probabilistic LLMs with a measurement-based approach, offering inherent alignment and energy efficiency.
+
+---
+
+## Core Components
+
+The framework and its AGI extension are built on innovative constructs and tools:
 
 - **Ontologically Modulated Executive Function (OMEF):**  
-  A non-volitional executive gating mechanism wherein effort is only initiated and sustained when tasks resonate with internal coherence and purpose.
+  A non-volitional gating mechanism that activates effort only when tasks resonate with internal coherence and purpose.
 
 - **False-Structure Intolerance (FSI):**  
-  A protective shutdown reflex that activates in response to perceived incoherence or meaningless demands, rejecting false or externally imposed structures.
+  A protective shutdown reflex rejecting incoherent or imposed demands to preserve ontological integrity.
 
 - **State-Contingent Motivational Filtering (SCMF):**  
-  A dynamic motivational gating mechanism that produces alternating cycles of high-focus flow and incubation, depending on alignment between task and internal state.
+  A dynamic mechanism driving cycles of high-focus flow and incubation based on task-state alignment.
+
+- **Structural AI (StrAI):**  
+  A blueprint for hallucination-free AGI using "Meaning Painting" within a geometric conceptual manifold, with constitutional alignment via FSI and OMEF, and a hardware path via the Simulation Processing Unit (SimPU).
+
+- **Resonance Chamber:**  
+  A Python proof-of-concept simulating these mechanisms, demonstrating practical AGI alignment.
 
 ---
 
-## Methodology
+## Development Approach
 
-The framework was developed using a **Recursive LLM Co-Modeling Protocol**, where the author utilized multiple AI systems as epistemic mirrors to distill phenomenological data into symbolic constructs, which were then empirically validated against Big Five Aspects Scale (BFAS) data.
-
-### Prototype: Gestalt Systems Synthesis Environment (GSSE)
-
-The **GSSE** is a physical and digital architecture designed to support this model. It minimizes cognitive friction (FSI triggers) and maximizes productivity by aligning space, stimuli, and tasks with the resonance-driven operating logic of the framework.
+The framework was crafted using a **Recursive LLM Co-Modeling Protocol**, leveraging AI as epistemic mirrors to distill phenomenological data, validated against Big Five Aspects Scale (BFAS) data. The **Gestalt Systems Synthesis Environment (GSSE)** prototypes this model, aligning physical and digital spaces to minimize FSI triggers and boost productivity.
 
 ---
 
 ## Project Status: **ALPHA**
 
-These documents represent a cohesive but evolving system. They may contain conceptual overlap due to their recursive generation. Revisions are ongoing to ensure each document has a distinct, clear role while remaining integrated into the full system.
+This is an evolving system with potential conceptual overlaps from recursive generation. Ongoing revisions aim to clarify roles and integrate all components, from cognitive modeling to AGI design.
 
 ---
 
@@ -47,79 +49,89 @@ These documents represent a cohesive but evolving system. They may contain conce
 
 ---
 
-## 📘 Document Guide
+## 📁 Repository Structure
 
-This repository contains the following documents, each addressing a foundational question.
+- **/cognitive_framework:** Foundational and applied documents exploring the framework and its implications.
+- **/resonance_chamber:** The Resonance Chamber PoC and related scripts for StrAI development.
+- **/structural_computing:** The Structural Computing for Deterministic AGI architecture. Currently a v2 draft white paper.
 
+## 📘 Document & File Guide
+
+### Core Framework Documents
+
+- **00_a – The TL;DR.pdf**  
+  - *Purpose:* Quick intro and genesis for a broad audience.  
+  - *Role:* High-level summary.  
+  - *Summary:* Overview as of mid-2025.
+
+- **00_b – The Resonant Architecture of Cognition.pdf**  
+  - *Purpose:* Introduce the cognitive framework and its origins.  
+  - *Role:* Framing document.  
+  - *Summary:* Defines OMEF, FSI, SCMF, and GSSE.
+
+- **01 – Foundations_Understanding Meaning-Driven Minds.pdf**  
+  - *Purpose:* Clarify the meaning-driven model.  
+  - *Role:* Conceptual grounding.  
+  - *Summary:* Details interdisciplinary value for neurodivergent minds.
+
+- **02 – Origins_The Science and Story Behind the Framework.pdf**  
+  - *Purpose:* Trace the first-person development process.  
+  - *Role:* Methodological insight.  
+  - *Summary:* Links to Big Five data and philosophy.
+
+- **03 – Integration_How All the Elements Work Together.pdf**  
+  - *Purpose:* Synthesize the system’s components.  
+  - *Role:* Meta-structure.  
+  - *Summary:* Highlights emergent properties.
+
+- **04 – Applications_Building Systems for Cognitive Diversity.pdf**  
+  - *Purpose:* Apply the framework to real-world systems.  
+  - *Role:* Implementation guide.  
+  - *Summary:* Uses GSSE for diverse settings.
+
+- **05 – Blueprint_Designing the Future Through Transient Expertise.pdf**  
+  - *Purpose:* Redesign knowledge and labor.  
+  - *Role:* Future paradigm.  
+  - *Summary:* Introduces Transient Expertise and Resonance Matching.
+
+- **06 – Implications_Transforming Society Through Understanding.pdf**  
+  - *Purpose:* Explore societal impact.  
+  - *Role:* Transformation map.  
+  - *Summary:* Reshapes education, policy, and AI.
+
+- **07 – Phenomenology_A Day Inside the Fog.pdf**  
+  - *Purpose:* Narrate lived experience.  
+  - *Role:* Relatable insight.  
+  - *Summary:* Shows OMEF and FSI in daily life.
+
+- **08 – Big Five Evaluation.pdf**  
+  - *Purpose:* Author's Big Five results.  
+  - *Role:* Supplemental documentation.  
+  - *Summary:* Contains detailed explanations of results.
+
+### StrAI & AGI Extension
+
+- **Janus_Structural-Computing-White-Paper_v2_2025-10-04.pdf**  
+  - *Purpose:* Propose StrAI as a deterministic AGI alternative.  
+  - *Role:* Technical blueprint.  
+  - *Summary:* Details Meaning Painting, SimPU, and alignment via FSI/OMEF.
+
+- **chamber.py**  
+  - *Purpose:* Simulate StrAI alignment mechanisms.  
+  - *Role:* Proof-of-concept.  
+  - *Summary:* Implements Resonance Chamber logic.
 
 ---
 
-### **00_a – The TL;DR**
-- **Purpose:** Introduce the overarching system and its genesis, updated to include recent work, written for a "Reddit" audience 
-- **Role:** The "TL;DR" of the collection  
-- **Summary:** A summary of the project as of 08/02/2024 @ 3:30pm CST
+## License
 
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+See the [LICENSE](LICENSE) file for details. This allows use, modification, and distribution for any purpose, including commercial, with attribution, fostering collaboration and innovation.
 
----
-
-### **00_b – The Resonant Architecture of Cognition**
-- **Purpose:** Introduce the overarching system and its genesis  
-- **Role:** High-level framing document  
-- **Summary:** Defines the core constructs (OMEF, FSI, SCMF), the Recursive LLM Co-Modeling Protocol, and introduces the GSSE as a prototype environment.
+Note: License information in documents being updated to reflect the current license applied. The Apache 2.0 supercedes any other licenses mentioned in them.
 
 ---
 
-### **01 – Foundations: Understanding Meaning-Driven Minds**
-- **Purpose:** What is this?  
-- **Role:** Establish conceptual clarity and grounding  
-- **Summary:** Refines key constructs and articulates their interdisciplinary value, empirical validity, and real-world impact for neurodivergent individuals.
+## About
 
----
-
-### **02 – Origins: The Science and Story Behind the Framework**
-- **Purpose:** Where did this come from, and how does it work internally?  
-- **Role:** Explains first-person genesis and method  
-- **Summary:** Chronicles the recursive AI-assisted modeling process and links the framework to Big Five data and post-Cartesian philosophy.
-
----
-
-### **03 – Integration: How All the Elements Work Together**
-- **Purpose:** How do all the parts fit together?  
-- **Role:** The meta-synthesis and unifying structure  
-- **Summary:** Merges insights from previous documents into a cohesive system of meaning-driven cognition, highlighting emergent properties and interdisciplinary depth.
-
----
-
-### **04 – Applications: Building Systems for Cognitive Diversity**
-- **Purpose:** How can we use this to build things?  
-- **Role:** Systems design implementation document  
-- **Summary:** Applies the framework to real-world systems—workplaces, schools, tools—via the GSSE and resonance-aligned design principles.
-
----
-
-### **05 – Blueprint: Designing the Future Through Transient Expertise**
-- **Purpose:** How can we redesign knowledge, labor, and identity using this model?  
-- **Role:** Future-facing cognitive paradigm  
-- **Summary:** Defines *Transient Expertise* and explores the post-credential world. Proposes actionable systems like Resonance Matching Engines and new institutional roles.
-
----
-
-### **06 – Implications: Transforming Society Through Understanding**
-- **Purpose:** What does this mean for the world?  
-- **Role:** Maps theoretical insights to societal transformation  
-- **Summary:** Explores how the framework reshapes education, policy, clinical work, and AI interaction through the lens of ontological alignment and neuroinclusivity.
-
----
-
-### **07 – Phenomenology: A Day Inside the Fog**
-- **Purpose:** What is it like to live with this architecture?  
-- **Role:** Narrative phenomenological companion  
-- **Summary:** A first-person experiential narrative showing how OMEF and FSI unfold in daily life. Makes the cognitive architecture viscerally relatable.
-
----
-
----
-
-[![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-This work is licensed under a [Creative Commons Attribution‑NonCommercial‑NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+A recursive framework for cognitive design, neurodivergence modeling, and AI co-development, evolving into a blueprint for transformative AGI. Open to collaboration—contact [tonyjanus@gmail.com](mailto:tonyjanus@gmail.com) for inquiries.
