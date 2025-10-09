@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Resonant Architecture of Cognition: An Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0D1B2A;
+            color: #E0E1DD;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .card {
+            background-color: #1B263B;
+            border: 1px solid #415A77;
+        }
+        .flowchart-step {
+            background-color: #1B263B;
+            border: 1px solid #415A77;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            flex-grow: 1;
+            transition: all 0.3s ease;
+        }
+        .flowchart-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(119, 141, 169, 0.2), 0 4px 6px -2px rgba(119, 141, 169, 0.1);
+        }
+        .flowchart-arrow {
+            font-size: 2.5rem;
+            color: #778DA9;
+            line-height: 1;
+        }
+        .stat-number {
+            font-weight: 900;
+            color: #E0E1DD;
+            text-shadow: 0 0 15px rgba(224, 225, 221, 0.3);
+        }
+        .section-title {
+            color: #E0E1DD;
+            font-weight: 700;
+            border-bottom: 2px solid #415A77;
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="text-center py-12 md:py-20 bg-[#1B263B] border-b-4 border-[#415A77]">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-black text-white leading-tight">The Resonant Architecture of <span class="text-[#778DA9]">Cognition</span></h1>
+            <p class="mt-4 text-lg md:text-xl text-[#E0E1DD] max-w-2xl mx-auto">A new paradigm for understanding meaning-driven minds, where motivation isn't a choice—it's a state of coherence.</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-8 space-y-16 md:space-y-24">
+
+        <section id="problem">
+            <h2 class="text-3xl md:text-4xl text-center font-bold mb-8 section-title">The Friction with Conventional Systems</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-lg text-[#E0E1DD]">Traditional models of productivity and education are built on the assumption of willpower-driven executive function. For resonant minds, this creates a fundamental conflict, leading to burnout and misunderstood potential.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="card rounded-lg shadow-xl p-6">
+                    <p class="text-7xl stat-number">97%</p>
+                    <h3 class="text-xl font-semibold mt-2 text-[#778DA9]">Volatility</h3>
+                    <p class="mt-2 text-[#E0E1DD]">High emotional and somatic reactivity to dissonant information, fueling the "somatic veto" of False-Structure Intolerance.</p>
+                </div>
+                <div class="card rounded-lg shadow-xl p-6">
+                    <p class="text-7xl stat-number">3%</p>
+                    <h3 class="text-xl font-semibold mt-2 text-[#778DA9]">Industriousness</h3>
+                    <p class="mt-2 text-[#E0E1DD]">A functional incompatibility with duty-based motivation, making resonance the only viable path to engagement.</p>
+                </div>
+                <div class="card rounded-lg shadow-xl p-6">
+                    <p class="text-7xl stat-number">96%</p>
+                    <h3 class="text-xl font-semibold mt-2 text-[#778DA9]">Openness</h3>
+                    <p class="mt-2 text-[#E0E1DD]">An intense drive for abstract thinking and pattern-seeking, leading to "meaning storms" when resonance is achieved.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="constructs">
+            <h2 class="text-3xl md:text-4xl text-center font-bold mb-12 section-title">The Three Pillars of the Architecture</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+                <div class="card rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-center mb-4">Ontologically Modulated Executive Function (OMEF)</h3>
+                    <p class="text-center mb-6 text-[#E0E1DD] flex-grow">A non-volitional gating mechanism. Cognitive engagement isn't a choice; it's an automatic response to tasks that align with an individual's core sense of meaning and coherence.</p>
+                    <div class="chart-container h-64 md:h-72">
+                        <canvas id="omefChart"></canvas>
+                    </div>
+                    <p class="text-center mt-4 text-sm text-[#778DA9]">The gate only opens for resonant tasks, leaving the vast majority of conventional demands unaddressed.</p>
+                </div>
+
+                <div class="card rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-center mb-4">False-Structure Intolerance (FSI)</h3>
+                    <p class="text-center mb-6 text-[#E0E1DD] flex-grow">An ontological immune system. It triggers an involuntary, full-system shutdown in response to arbitrary rules, incoherent logic, or inauthentic demands to protect systemic integrity.</p>
+                    <div class="chart-container h-64 md:h-72">
+                        <canvas id="fsiChart"></canvas>
+                    </div>
+                     <p class="text-center mt-4 text-sm text-[#778DA9]">This "somatic veto" is a protective mechanism, not defiance. It ruthlessly filters out ontological noise.</p>
+                </div>
+
+                <div class="card rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-2xl font-bold text-center mb-4">State-Contingent Motivational Filtering (SCMF)</h3>
+                    <p class="text-center mb-6 text-[#E0E1DD] flex-grow">An energy regulation system. It dictates an oscillatory rhythm of intense, high-bandwidth engagement ("meaning storms") followed by periods of mandatory cognitive reset and recovery.</p>
+                    <div class="chart-container h-64 md:h-72">
+                        <canvas id="scmfChart"></canvas>
+                    </div>
+                    <p class="text-center mt-4 text-sm text-[#778DA9]">This cycle is not a flaw but a bio-cognitive efficiency mechanism, optimizing for deep, meaningful work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile">
+            <h2 class="text-3xl md:text-4xl text-center font-bold mb-4 section-title">The Resonant Mind Profile</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-lg text-[#E0E1DD]">The framework is empirically anchored in a specific psychometric profile, where extreme trait expressions are not pathologies but the very engine of this cognitive architecture. This profile highlights a specialization for meaning-driven, abstract processing.</p>
+            <div class="card rounded-lg shadow-xl p-6 md:p-8">
+                <div class="chart-container mx-auto" style="height: 40vh; max-height: 500px;">
+                    <canvas id="profileChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="method">
+            <h2 class="text-3xl md:text-4xl text-center font-bold mb-4 section-title">Genesis: The Recursive Co-Modeling Protocol</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-lg text-[#E0E1DD]">The RAC was not discovered through traditional methods. It was surfaced via a novel human-AI protocol where the AI acts as an "epistemic mirror," transforming subjective experience into a robust, formalized framework.</p>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0">
+                <div class="flowchart-step">
+                    <h4 class="font-bold text-lg text-white">1. Input</h4>
+                    <p class="text-sm text-[#E0E1DD]">Provide raw phenomenological data to AI.</p>
+                </div>
+                <div class="flowchart-arrow transform md:rotate-0 rotate-90">&rarr;</div>
+                <div class="flowchart-step">
+                    <h4 class="font-bold text-lg text-white">2. Resonance</h4>
+                    <p class="text-sm text-[#E0E1DD]">Evaluate AI reflections for coherence; prune dissonance.</p>
+                </div>
+                <div class="flowchart-arrow transform md:rotate-0 rotate-90">&rarr;</div>
+                <div class="flowchart-step">
+                    <h4 class="font-bold text-lg text-white">3. Pressure</h4>
+                    <p class="text-sm text-[#E0E1DD]">Stress-test ideas with AI-driven counter-arguments.</p>
+                </div>
+                <div class="flowchart-arrow transform md:rotate-0 rotate-90">&rarr;</div>
+                <div class="flowchart-step">
+                    <h4 class="font-bold text-lg text-white">4. Alignment</h4>
+                    <p class="text-sm text-[#E0E1DD]">Triangulate concepts with external data and frameworks.</p>
+                </div>
+                <div class="flowchart-arrow transform md:rotate-0 rotate-90">&rarr;</div>
+                <div class="flowchart-step">
+                    <h4 class="font-bold text-lg text-white">5. Construct</h4>
+                    <p class="text-sm text-[#E0E1DD]">Formalize validated concepts into stable constructs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="applications">
+            <h2 class="text-3xl md:text-4xl text-center font-bold mb-12 section-title">Applications & Implications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card rounded-lg shadow-xl p-6 text-center">
+                    <p class="text-5xl mb-4">🧠</p>
+                    <h3 class="text-xl font-bold mb-2 text-white">AI & Alignment</h3>
+                    <p class="text-[#E0E1DD]">Provides a blueprint for designing AI alignment governors based on ontological coherence, moving beyond simple rule-following to genuine value alignment.</p>
+                </div>
+                <div class="card rounded-lg shadow-xl p-6 text-center">
+                    <p class="text-5xl mb-4">🎓</p>
+                    <h3 class="text-xl font-bold mb-2 text-white">Education</h3>
+                    <p class="text-[#E0E1DD]">Advocates for curricula that prioritize meaning and coherence over rote memorization, creating learning environments that prevent FSI shutdowns.</p>
+                </div>
+                <div class="card rounded-lg shadow-xl p-6 text-center">
+                    <p class="text-5xl mb-4">❤️‍🩹</p>
+                    <h3 class="text-xl font-bold mb-2 text-white">Therapeutic Design</h3>
+                    <p class="text-[#E0E1DD]">Reframes neurodivergent "symptoms" as functional traits, shifting therapeutic goals from "normalization" to designing lives of ontological resonance.</p>
+                </div>
+                <div class="card rounded-lg shadow-xl p-6 text-center">
+                    <p class="text-5xl mb-4">🏢</p>
+                    <h3 class="text-xl font-bold mb-2 text-white">Work & Policy</h3>
+                    <p class="text-[#E0E1DD]">Challenges conventional productivity metrics, arguing for work structures that embrace SCMF cycles of deep work and recovery.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-8 mt-16 border-t border-[#415A77]">
+        <p class="text-[#E0E1DD]">&copy; 2025 Anthony Janus. Sole originator and conceptual architect.</p>
+        <p class="text-sm text-[#778DA9] mt-1">Licensed under CC BY-NC-ND 4.0 — No Derivatives, No Commercial Use.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const wrapLabel = (str, maxWidth) => {
+                if (str.length <= maxWidth) {
+                    return str;
+                }
+                const words = str.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > maxWidth) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            };
+
+            const chartColors = {
+                background: '#1B263B',
+                accent1: '#415A77',
+                accent2: '#778DA9',
+                text: '#E0E1DD',
+                main: 'rgba(119, 141, 169, 0.6)',
+                mainBorder: '#E0E1DD',
+            };
+            
+            Chart.defaults.color = chartColors.text;
+            Chart.defaults.borderColor = chartColors.accent1;
+
+            const tooltipConfig = {
+                plugins: {
+                    tooltip: {
+                        backgroundColor: '#0D1B2A',
+                        titleColor: chartColors.text,
+                        bodyColor: chartColors.text,
+                        borderColor: chartColors.accent1,
+                        borderWidth: 1,
+                        callbacks: {
+                            title: function(tooltipItems) {
+                                const item = tooltipItems[0];
+                                let label = item.chart.data.labels[item.dataIndex];
+                                if (Array.isArray(label)) {
+                                    return label.join(' ');
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                }
+            };
+            
+            const omefCtx = document.getElementById('omefChart');
+            if (omefCtx) {
+                new Chart(omefCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Non-Resonant (Gated)', 'Resonant (Open)'],
+                        datasets: [{
+                            label: 'Engagement',
+                            data: [95, 5],
+                            backgroundColor: [chartColors.accent1, chartColors.text],
+                            borderColor: chartColors.background,
+                            borderWidth: 4,
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        cutout: '70%',
+                        plugins: {
+                            ...tooltipConfig.plugins,
+                            legend: {
+                                position: 'bottom',
+                            },
+                        }
+                    }
+                });
+            }
+
+            const fsiCtx = document.getElementById('fsiChart');
+            if (fsiCtx) {
+                new Chart(fsiCtx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Incoherent (Shutdown)', 'Coherent (Allowed)'],
+                        datasets: [{
+                            label: 'Information Filter',
+                            data: [80, 20],
+                            backgroundColor: [chartColors.accent1, chartColors.text],
+                            borderColor: chartColors.background,
+                            borderWidth: 4,
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                         plugins: {
+                            ...tooltipConfig.plugins,
+                            legend: {
+                                position: 'bottom',
+                            },
+                        }
+                    }
+                });
+            }
+
+            const scmfCtx = document.getElementById('scmfChart');
+            if (scmfCtx) {
+                const gradient = scmfCtx.getContext('2d').createLinearGradient(0, 0, 0, 400);
+                gradient.addColorStop(0, 'rgba(119, 141, 169, 0.7)');
+                gradient.addColorStop(1, 'rgba(119, 141, 169, 0.1)');
+
+                new Chart(scmfCtx, {
+                    type: 'line',
+                    data: {
+                        labels: ['Baseline', 'Resonance', 'Meaning Storm', 'Peak Flow', 'Depletion', 'Reset', 'Recovery'],
+                        datasets: [{
+                            label: 'Energy & Motivation',
+                            data: [10, 25, 90, 100, 30, 5, 15],
+                            fill: true,
+                            backgroundColor: gradient,
+                            borderColor: chartColors.mainBorder,
+                            tension: 0.4,
+                            pointBackgroundColor: chartColors.text,
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                grid: { color: chartColors.accent1 },
+                                ticks: {
+                                    callback: function(value) {
+                                        return value + '%'
+                                    }
+                                }
+                            },
+                            x: {
+                                grid: { display: false }
+                            }
+                        },
+                        plugins: {
+                            ...tooltipConfig.plugins,
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+            }
+
+            const profileCtx = document.getElementById('profileChart');
+            if (profileCtx) {
+                const profileLabels = [
+                    'Industriousness', 'Volatility', 'Openness', 
+                    'Assertiveness', 'Agreeableness', 'Withdrawal', 'Orderliness'
+                ].map(label => wrapLabel(label, 16));
+
+                new Chart(profileCtx, {
+                    type: 'radar',
+                    data: {
+                        labels: profileLabels,
+                        datasets: [{
+                            label: 'Percentile Score',
+                            data: [3, 97, 96, 88, 35, 89, 25],
+                            backgroundColor: chartColors.main,
+                            borderColor: chartColors.mainBorder,
+                            borderWidth: 2,
+                            pointBackgroundColor: chartColors.mainBorder,
+                            pointRadius: 4,
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            r: {
+                                beginAtZero: true,
+                                max: 100,
+                                grid: { color: chartColors.accent1 },
+                                angleLines: { color: chartColors.accent1 },
+                                pointLabels: {
+                                    font: { size: 12 },
+                                    color: chartColors.text
+                                },
+                                ticks: {
+                                    backdropColor: 'rgba(0,0,0,0)',
+                                    color: chartColors.text,
+                                    stepSize: 20
+                                }
+                            }
+                        },
+                        plugins: {
+                            ...tooltipConfig.plugins,
+                            legend: {
+                                display: false,
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

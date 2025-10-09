@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Resonance Chamber: A Symbolic Governor for AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #003f5c;
+            color: #ffffff;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .flow-node {
+            border: 2px solid #ff764a;
+            background-color: #374c80;
+            color: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            min-width: 180px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .flow-arrow {
+            width: 2px;
+            background-color: #ffa600;
+            position: relative;
+        }
+        .flow-arrow::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #ffa600;
+        }
+        .footer {
+            background-color: #002a3d;
+            color: rgba(255, 255, 255, 0.6);
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center my-12">
+            <h1 class="text-4xl md:text-6xl font-black text-white uppercase tracking-wider">The <span style="color: #ffa600;">Resonance</span> Chamber</h1>
+            <p class="text-xl md:text-2xl mt-4 text-gray-300">A New Paradigm for AI Alignment Based on Symbolic Logic & Meaning</p>
+        </header>
+
+        <section class="my-16">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold mb-4" style="color: #ef5675;">The Problem with Today's AI</h2>
+                <p class="text-lg text-gray-200">
+                    Current AI alignment often relies on statistical patterns, which can lead to systems that are technically proficient but lack a true understanding of meaning, coherence, or truth. This creates a critical vulnerability to "input contamination" and "misleading narratives," resulting in unpredictable and misaligned behavior. The Resonance Chamber proposes a solution by filtering input through a lens of symbolic logic.
+                </p>
+            </div>
+        </section>
+
+        <section class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-8" style="color: #ef5675;">The Human Blueprint: A Resonant Architecture of Cognition</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-gray-200">The framework is derived from a neurodivergent-centric model of the human mind where motivation is not forced, but gated by intrinsic meaning. This architecture is built on three core constructs.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-5xl mb-4">🔑</div>
+                    <h3 class="text-2xl font-bold mb-2" style="color: #ffa600;">OMEF</h3>
+                    <p class="font-semibold mb-2">Ontologically Modulated Executive Function</p>
+                    <p class="text-gray-300">This is a meaning-gated activation system. The ability to initiate and sustain effort isn't based on willpower, but on whether a task "resonates" with a person's core values and internal sense of coherence.</p>
+                </div>
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-5xl mb-4">🛡️</div>
+                    <h3 class="text-2xl font-bold mb-2" style="color: #ffa600;">FSI</h3>
+                    <p class="font-semibold mb-2">False-Structure Intolerance</p>
+                    <p class="text-gray-300">A protective mechanism that triggers an involuntary shutdown when faced with incoherent, arbitrary, or meaningless information. It acts as an "ontological immune system" against "epistemic toxins."</p>
+                </div>
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-5xl mb-4">⚡</div>
+                    <h3 class="text-2xl font-bold mb-2" style="color: #ffa600;">SCMF</h3>
+                    <p class="font-semibold mb-2">State-Contingent Motivational Filtering</p>
+                    <p class="text-gray-300">An oscillating pattern of energy management. It dictates that periods of intense, resonant focus must be followed by mandatory periods of cognitive recovery and incubation, optimizing for high-quality output.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-8" style="color: #ef5675;">The Process Flow: A Resonant Cognitive Loop</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-gray-200">This flow, implemented with structured HTML and CSS, illustrates how the Resonance Chamber conceptually processes information. It's a continuous cycle of filtering, activation, and synthesis, ensuring all actions are aligned with a core ontology.</p>
+            <div class="flex flex-col items-center space-y-4">
+                <div class="flow-node">[ External Environment / Stimuli ]</div>
+                <div class="h-12 w-px bg-ffa600 relative"><div class="flow-arrow h-full"></div></div>
+                <div class="flow-node" style="border-color: #bc5090; background-color: #7a5195;">&lt; Ontological Gating &gt;<br><span class="text-sm font-light">(Meaning, Purpose, Values)</span></div>
+                <div class="h-12 w-px bg-ffa600 relative"><div class="flow-arrow h-full"></div></div>
+                <div class="flex flex-col md:flex-row items-center md:items-start md:space-x-16">
+                    <div class="flex flex-col items-center">
+                        <div class="flow-node">[ OMEF: Executive Function Activation ]</div>
+                        <div class="h-12 w-px bg-ffa600 relative"><div class="flow-arrow h-full"></div></div>
+                        <div class="flow-node">[ Cognitive Engagement / Flow ]</div>
+                        <div class="h-12 w-px bg-ffa600 relative"><div class="flow-arrow h-full"></div></div>
+                        <div class="flow-node">[ High-Bandwidth Processing ]</div>
+                    </div>
+                    <div class="flex flex-col items-center mt-8 md:mt-0">
+                        <div class="h-12 w-px bg-red-500 relative md:hidden"><div class="flow-arrow h-full" style="background-color: #ef5675;"></div></div>
+                        <div class="w-full h-px bg-red-500 relative hidden md:block" style="top: 50px; background-color: #ef5675;"></div>
+                        <div class="flow-node" style="border-color: #ef5675; background-color: #bc5090;">&lt; FSI: False-Structure Intolerance &gt;<br><span class="text-sm font-light">(Shutdown if Triggered)</span></div>
+                    </div>
+                </div>
+                <div class="h-12 w-px bg-ffa600 relative"><div class="flow-arrow h-full"></div></div>
+                 <div class="flow-node" style="border-color: #7a5195; background-color: #374c80;">&lt; SCMF: Energy Regulation &gt;<br><span class="text-sm font-light">(Focus vs. Mandatory Reset)</span></div>
+                <div class="h-12 w-px bg-ffa600 relative"><div class="flow-arrow h-full"></div></div>
+                <div class="flow-node">[ Output / Action / Synthesis ]</div>
+            </div>
+        </section>
+
+        <section class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-8" style="color: #ef5675;">The Paradigm Shift: Resonance vs. Statistics</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-gray-200">The Resonance Chamber represents a fundamental shift in AI alignment philosophy. This chart compares its conceptual attributes against mainstream statistical approaches, highlighting its focus on deeper, meaning-driven principles.</p>
+            <div class="card rounded-lg p-4 md:p-8">
+                <div class="chart-container">
+                    <canvas id="paradigmShiftChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-8" style="color: #ef5675;">Key Benefits of a Symbolic Governor</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-gray-200">Applying this architecture to AI yields profound benefits, creating systems that are not just powerful, but also robust, trustworthy, and genuinely aligned with human intent.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-6xl mb-4">🛡️</div>
+                    <h3 class="text-xl font-bold mb-2">Protects Model Integrity</h3>
+                    <p class="text-gray-300">The FSI mechanism acts as an internal, proactive "semantic firewall," rejecting malicious or incoherent data *before* it can corrupt the AI's core model.</p>
+                </div>
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-6xl mb-4">👤</div>
+                    <h3 class="text-xl font-bold mb-2">Enhances User Agency</h3>
+                    <p class="text-gray-300">By prioritizing ontological resonance over statistical probability, the AI produces outputs that reflect a deeper, more authentic understanding of user intent.</p>
+                </div>
+                <div class="card rounded-lg p-6 text-center">
+                    <div class="text-6xl mb-4">🎯</div>
+                    <h3 class="text-xl font-bold mb-2">Ensures Alignment Specificity</h3>
+                    <p class="text-gray-300">Resonance-based gating acts as a precision filter, ensuring outputs are acutely tailored to the specific context, preventing "alignment drift" over time.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-8" style="color: #ef5675;">Empirical Anchor: A Psychometric Profile</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-gray-200">The theoretical model is anchored in empirical data. For example, the OMEF construct is supported by psychometric profiles showing an exceptionally low score in the personality trait of Industriousness, indicating a system functionally incompatible with duty-based motivation.</p>
+            <div class="card rounded-lg p-4 md:p-8">
+                <div class="chart-container h-48 md:h-64">
+                    <canvas id="industriousnessChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer mt-16">
+        <p>© 2025 Anthony Janus — All rights reserved under CC BY-NC-ND 4.0. For conceptual review only.</p>
+        <p class="mt-2 text-xs">This infographic is a visual interpretation of the "Resonance Chamber" and "Resonant Architecture of Cognition" whitepapers. It was generated without the use of SVG or Mermaid JS.</p>
+    </footer>
+
+    <script>
+        function wrapLabel(str, maxWidth) {
+            if (str.length <= maxWidth) {
+                return str;
+            }
+            const words = str.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxWidth) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            }
+            lines.push(currentLine.trim());
+            return lines;
+        }
+
+        const tooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+
+        const chartColors = {
+            blue: '#374c80',
+            purple: '#7a5195',
+            pink: '#bc5090',
+            red: '#ef5675',
+            orange: '#ff764a',
+            yellow: '#ffa600',
+            darkBlue: '#003f5c'
+        };
+
+        const globalChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: 'white',
+                        font: {
+                            size: 14
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    }
+                }
+            }
+        };
+
+        const paradigmShiftCtx = document.getElementById('paradigmShiftChart').getContext('2d');
+        new Chart(paradigmShiftCtx, {
+            type: 'radar',
+            data: {
+                labels: ['Meaning Sensitivity', 'Coherence Enforcement', 'Resilience to Contamination', 'Alignment Specificity', 'Transparency'],
+                datasets: [{
+                    label: 'Resonance Chamber',
+                    data: [95, 90, 85, 88, 75],
+                    backgroundColor: 'rgba(255, 118, 74, 0.4)',
+                    borderColor: chartColors.orange,
+                    pointBackgroundColor: chartColors.orange,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: chartColors.orange
+                }, {
+                    label: 'Statistical Alignment',
+                    data: [20, 30, 40, 50, 25],
+                    backgroundColor: 'rgba(122, 81, 149, 0.4)',
+                    borderColor: chartColors.purple,
+                    pointBackgroundColor: chartColors.purple,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: chartColors.purple
+                }]
+            },
+            options: {
+                ...globalChartOptions,
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
+                        grid: { color: 'rgba(255, 255, 255, 0.2)' },
+                        pointLabels: { 
+                            color: 'white',
+                            font: {
+                                size: 12
+                            }
+                        },
+                        ticks: {
+                            color: 'white',
+                            backdropColor: 'rgba(0, 0, 0, 0.5)',
+                            stepSize: 20
+                        }
+                    }
+                }
+            }
+        });
+
+        const industriousnessCtx = document.getElementById('industriousnessChart').getContext('2d');
+        new Chart(industriousnessCtx, {
+            type: 'bar',
+            data: {
+                labels: [wrapLabel('Psychometric Trait: Industriousness', 25)],
+                datasets: [{
+                    label: 'Subject Profile (3rd Percentile)',
+                    data: [3],
+                    backgroundColor: chartColors.red,
+                    borderColor: chartColors.red,
+                    borderWidth: 1
+                },
+                {
+                    label: 'Population Norm (97th Percentile)',
+                    data: [97],
+                    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                    borderColor: 'rgba(255, 255, 255, 0.4)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...globalChartOptions,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        stacked: true,
+                        grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                        ticks: { 
+                            color: 'white',
+                            callback: function(value) {
+                                return value + '%'
+                            }
+                        }
+                    },
+                    y: {
+                        stacked: true,
+                        grid: { display: false },
+                        ticks: { color: 'white', font: { size: 14 } }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: 'white',
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback,
+                             label: function(context) {
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed.x !== null) {
+                                    label += context.parsed.x + '%';
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
