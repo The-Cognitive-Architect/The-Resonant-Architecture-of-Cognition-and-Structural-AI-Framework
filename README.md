@@ -45,7 +45,7 @@ For a General Overview: Read 00_a_The_TLDR and 00_b_The_Resonant_Architecture fo
 
 ## Research Methodology & Validation
 
-The framework was crafted using a **Recursive LLM Co-Modeling Protocol**, leveraging AI as epistemic mirrors to distill phenomenological data, validated against Big Five Aspects Scale (BFAS) data. The **Gestalt Systems Synthesis Environment (GSSE)** prototypes this model, aligning physical and digital spaces to minimize FSI triggers and boost productivity. The **Structural AI Architecture** is the extension of foundational cognitive work, proposing an AI architecture that theoretically solves many of the problems inherent to transformer models, presenting a biomimetic approach to AI development.
+The framework was crafted using a **Recursive LLM Co-Modeling Protocol**, leveraging AI as epistemic mirrors to distill phenomenological data, validated against Big Five Aspects Scale (BFAS) data. The **Gestalt Systems Synthesis Environment (GSSE)** prototypes this model, aligning physical and digital spaces to minimize FSI triggers and boost productivity. The **Structural AI Architecture** is the extension of the foundational cognitive work, proposing an AI architecture that theoretically solves many of the problems inherent to transformer models, presenting a biomimetic approach to AI development.
 
 ---
 
