@@ -129,10 +129,10 @@ This is an evolving system with potential conceptual overlaps from recursive gen
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 See the [LICENSE](LICENSE) file for details. This allows use, modification, and distribution for any purpose, including commercial, with attribution, fostering collaboration and innovation.
 
-Note: License information in documents being updated to reflect the current license applied. The Apache 2.0 supercedes any other licenses mentioned in them.
+Note: License information in documents being updated to reflect the current license applied. The Apache 2.0 supersedes any other licenses mentioned in them.
 
 ---
 
 ## About
 
-A recursive framework for cognitive design, neurodivergence modeling, and AI co-development, evolving into a blueprint for transformative AGI. Open to collaboration—contact [tonyjanus@gmail.com](mailto:tonyjanus@gmail.com) for inquiries.
+A recursive framework for cognitive design, neurodivergence modeling, and AI co-development, evolving into a blueprint for transformative AGI. Open to collaboration - contact [tonyjanus@gmail.com](mailto:tonyjanus@gmail.com) for inquiries.
