@@ -58,7 +58,7 @@ This is an evolving system with potential conceptual overlaps from recursive gen
 
 ## 📘 Document & File Guide
 
-### Core Framework Documents
+### Cognitive Framework Documents
 
 - **00_a_The_TL;DR.pdf**  
   - *Purpose:* Quick intro and genesis for a broad audience.  
