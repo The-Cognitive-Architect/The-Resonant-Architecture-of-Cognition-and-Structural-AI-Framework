@@ -8,7 +8,7 @@
 
 ## Overview
 
-This repository presents a pioneering cognitive-ontological framework, the **Resonant Architecture of Cognition**, derived from a first-person case study of a neurodivergent individual with ASD and ADHD traits. It challenges deficit-based models by proposing a meaning-driven system where executive function aligns with coherence and purpose. Building on this, the project extends into **Structural AI (StrAI)**, a deterministic AGI paradigm designed to replace probabilistic LLMs with a measurement-based approach, offering inherent alignment and energy efficiency.
+This repository presents a pioneering cognitive-ontological framework, the **Resonant Architecture of Cognition**, derived from a first-person case study of a neurodivergent individual with ASD and ADHD traits. It challenges deficit-based models by proposing a meaning-driven system where executive function aligns with coherence and purpose. Building on this, the project extends into **Structural AI (StrAI)**, a deterministic AGI paradigm designed to replace probabilistic LLMs with a measurement-based approach, offering inherent alignment and energy efficiency. This human-derived cognitive architecture serves as a biologically-plausible blueprint for building AGI systems that are inherently aligned, purpose-driven, and architecturally incapable of deception.
 
 ---
 
@@ -33,9 +33,19 @@ The framework and its AGI extension are built on innovative constructs and tools
 
 ---
 
-## Development Approach
+### Pathways for Engagement
 
-The framework was crafted using a **Recursive LLM Co-Modeling Protocol**, leveraging AI as epistemic mirrors to distill phenomenological data, validated against Big Five Aspects Scale (BFAS) data. The **Gestalt Systems Synthesis Environment (GSSE)** prototypes this model, aligning physical and digital spaces to minimize FSI triggers and boost productivity.
+For AI Researchers & Engineers: Start with the Janus_Structural-Computing-White-Paper and chamber.py to understand the StrAI architecture (in /structural_AI_computing).
+
+For Cognitive Scientists & Philosophers: Begin with 03_Integration and 01_Foundations to explore the cognitive model and its implications. (in /cognitive_framework)
+
+For a General Overview: Read 00_a_The_TLDR and 00_b_The_Resonant_Architecture for a high-level summary. (in /cognitive_framework; these do not reference the StrAI architecture)
+
+---
+
+## Research Methodology & Validation
+
+The framework was crafted using a **Recursive LLM Co-Modeling Protocol**, leveraging AI as epistemic mirrors to distill phenomenological data, validated against Big Five Aspects Scale (BFAS) data. The **Gestalt Systems Synthesis Environment (GSSE)** prototypes this model, aligning physical and digital spaces to minimize FSI triggers and boost productivity. The **Structural AI Architecture** is the extension of foundational cognitive work, proposing an AI architecture that theoretically solves many of the problems inherent to transformer models, presenting a biomimetic approach to AI development.
 
 ---
 
@@ -136,3 +146,5 @@ Note: License information in documents being updated to reflect the current lice
 ## About
 
 A recursive framework for cognitive design, neurodivergence modeling, and AI co-development, evolving into a blueprint for transformative AGI. Open to collaboration - contact [tonyjanus@gmail.com](mailto:tonyjanus@gmail.com) for inquiries.
+
+Connect on [LinkedIn](https://www.linkedin.com/in/anthony-janus)
