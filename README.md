@@ -52,7 +52,7 @@ There's a lot here. We recommend this path to understand the project:
 
 1. 📖 **Read the White Paper**: The core technical proposal. This is the blueprint for the entire AGI architecture.
 
-    - ***`Janus_Structural-Computing-White-Paper_v2_2025-10-04.pdf`***
+    - ***`Janus_Structural-Computing-White-Paper_v2_2_2025-10-12.pdf`***
 
 2. ⚙️ **Run the Simulation**: See the alignment architecture in action. This Python script is a proof-of-concept that simulates the FSI and OMEF mechanisms.
 
@@ -150,18 +150,25 @@ We are actively seeking feedback and collaboration, particularly from researcher
 
 ---
 
-## About & License
+## About
 
 **Contact**: <tonyjanus@gmail.com>
 
 **LinkedIn**: [LinkedIn - Anthony Janus](https://www.linkedin.com/in/anthony-janus)
 
-**License**: The code in this project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
+---
+
+## License 
+
+The code in this project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
 
 The whitepaper ***Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models*** is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
 
-See the [LICENSE](LICENSE) file for details. This allows use, modification, and distribution for any purpose, including commercial, with attribution, fostering collaboration and innovation. This is an open-source project intended to foster collaboration and accelerate the development of safe, truthful AGI.
+See /LICENSE for the code (Apache-2.0) and /structural_AI_computing/LICENSE for the whitepaper (CC BY 4.0).
+This is an open-source project intended to foster collaboration and accelerate the development of safe, truthful AGI.
 
-_Note: License information in documents is being updated to reflect the current license applied. The Apache 2.0 supersedes any other licenses mentioned in them._
+_**Note**: License headers are being updated. Code is Apache-2.0; the whitepaper and all files in /structural_AI_computing are CC BY 4.0;_
+_the documents in /cognitive_framework currently carry CC BY-NC-ND 4.0 headers and will be updated to CC BY 4.0._
+_Where a document includes its own license header, that header governs that document._
 
 ---
