@@ -10,6 +10,10 @@ It replaces the probabilistic model of LLMs with a geometric, measurement-based 
 
 ---
 
+>_*Due to the nature of AI-assisted writing, all citations are in the process of being verified, and erroneous citations are being fixed, added, or removed. This process is the current priority and is actively being completed._
+
+---
+
 ## The Problem with Probabilistic AI
 Current Large Language Models (LLMs) are architecturally bound to three fundamental limitations:
 
