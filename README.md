@@ -3,10 +3,9 @@
     
 It replaces the probabilistic model of LLMs with a geometric, measurement-based approach to meaning, offering a robust and energy-efficient path to truthful AI.
 
-
+<br>
 <center><em>"I exist, therefore I become."</em></center>
 <center><em>-Anthony Janus</em></center>
-<br>
 <br>
 
 ---
