@@ -10,10 +10,6 @@ It replaces the probabilistic model of LLMs with a geometric, measurement-based 
 
 ---
 
->_*Due to the nature of AI-assisted writing, all citations are in the process of being verified, and erroneous citations are being fixed, added, or removed. This process is the current priority and is actively being completed._
-
----
-
 ## The Problem with Probabilistic AI
 Current Large Language Models (LLMs) are architecturally bound to three fundamental limitations:
 
@@ -160,7 +156,9 @@ We are actively seeking feedback and collaboration, particularly from researcher
 
 **LinkedIn**: [LinkedIn - Anthony Janus](https://www.linkedin.com/in/anthony-janus)
 
-**License**: This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
+**License**: The code in this project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
+
+The whitepaper ***Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models*** is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
 
 See the [LICENSE](LICENSE) file for details. This allows use, modification, and distribution for any purpose, including commercial, with attribution, fostering collaboration and innovation. This is an open-source project intended to foster collaboration and accelerate the development of safe, truthful AGI.
 
