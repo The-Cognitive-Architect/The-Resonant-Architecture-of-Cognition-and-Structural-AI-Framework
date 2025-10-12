@@ -1,12 +1,15 @@
-# Structural AI: A Deterministic, Bio-Inspired Paradigm for AGI
+# Structural AI:<br> A Deterministic, Bio-Inspired Paradigm for AGI
 **This repository introduces Structural AI (StrAI)**: a new, deterministic AGI architecture designed to be constitutionally aligned and incapable of hallucination. 
     
 It replaces the probabilistic model of LLMs with a geometric, measurement-based approach to meaning, offering a robust and energy-efficient path to truthful AI.
 
-<br>
+
 <center><em>"I exist, therefore I become."</em></center>
 <center><em>-Anthony Janus</em></center>
 <br>
+<br>
+
+---
 
 ## The Problem with Probabilistic AI
 Current Large Language Models (LLMs) are architecturally bound to three fundamental limitations:
