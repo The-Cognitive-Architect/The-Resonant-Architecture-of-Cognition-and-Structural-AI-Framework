@@ -162,7 +162,7 @@ We are actively seeking feedback and collaboration, particularly from researcher
 
 The code in this project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
 
-The whitepaper ***Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models*** is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+The whitepaper ***Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models*** and full ***The Resonant Architecture of Cognition*** collection are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
 
 See /LICENSE for the code (Apache-2.0) and /structural_AI_computing/LICENSE for the whitepaper (CC BY 4.0).
 This is an open-source project intended to foster collaboration and accelerate the development of safe, truthful AGI.
