@@ -156,6 +156,14 @@ We are actively seeking feedback and collaboration, particularly from researcher
 
 ---
 
+## 📖 Publication & Citation
+
+This work is formally available as a preprint on ResearchGate. We recommend citing this paper using the information provided there.
+
+- **[Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models](https://www.researchgate.net/publication/396480045_Structural_Computing_for_Deterministic_AGI_A_Constitutionally_Aligned_Energy-_Efficient_Alternative_to_Probabilistic_Models)**
+
+---
+
 ## About
 
 **Contact**: <tonyjanus@gmail.com>
