@@ -167,8 +167,4 @@ The whitepaper ***Structural Computing for Deterministic AGI: A Constitutionally
 See /LICENSE for the code (Apache-2.0) and /structural_AI_computing/LICENSE for the whitepaper (CC BY 4.0).
 This is an open-source project intended to foster collaboration and accelerate the development of safe, truthful AGI.
 
-_**Note**: License headers are being updated. Code is Apache-2.0; the whitepaper and all files in /structural_AI_computing are CC BY 4.0;_
-_the documents in /cognitive_framework currently carry CC BY-NC-ND 4.0 headers and will be updated to CC BY 4.0._
-_Where a document includes its own license header, that header governs that document._
-
 ---
