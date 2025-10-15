@@ -1,7 +1,5 @@
 # Structural AI:<br> A Deterministic, Bio-Inspired Paradigm for AGI
-**This repository introduces Structural AI (StrAI)**: a new, deterministic AGI architecture designed to be constitutionally aligned and incapable of hallucination. 
-    
-It replaces the probabilistic model of LLMs with a geometric, measurement-based approach to meaning, offering a robust and energy-efficient path to truthful AI.
+**Structural AI (StrAI) is a post-probabilistic paradigm for AGI.** This repository details a complete, deterministic architecture that is constitutionally aligned and architecturally incapable of hallucination. It abandons statistical prediction in favor of a geometric, measurement-based model of meaning, offering a viable and energy-efficient path to verifiably truthful AI.
 
 ## Abstract 
  
@@ -31,7 +29,7 @@ Current Large Language Models (LLMs) are architecturally bound to three fundamen
 
 Structural AI solves these problems by reframing computation from statistical prediction to deterministic measurement. Its alignment is not trained; it's a native property of its design, derived directly from a validated model of human neurodivergent cognition.
 
-### Key Innovations:
+### Key Innovations
 
 - **Meaning Painting**: 
   StrAI replaces next-token prediction with a process that composes a query's meaning into a stable geometric state within a conceptual manifold, and then measures the result. This eliminates hallucinations by design. 
@@ -44,6 +42,16 @@ Structural AI solves these problems by reframing computation from statistical pr
 
     - **Ontologically Modulated Executive Function (OMEF)**: 
       A purpose-gated activation system that ensures the AGI is driven by its core mission, not just blind obedience, countering instrumental convergence. 
+
+### Core Architectural Differences
+
+| Feature          | Probabilistic LLMs                  | Structural AI (StrAI)                  |
+| :--------------- | :---------------------------------- | :------------------------------------- |
+| **Core Operation** | Next-Token Prediction               | Geometric Measurement                  |
+| **Truth Model** | Plausibility-based                  | Deterministic & Verifiable             |
+| **Alignment** | External & Behavioral (Guardrails)  | Constitutional & Inherent (Architecture) |
+| **Failure Mode** | Hallucination / Confabulation       | Coherent Halt (FSI Veto)               |
+| **Energy Model** | High (Matrix Multiplication)        | Ultra-Low (Analog/Neuromorphic)        |
 
 ---
 
@@ -152,7 +160,7 @@ These are the primary source documents providing the raw phenomenological and em
 
 - **Next Step**: Building the "Toy Universe Engine PoC" to demonstrate the end-to-end geometric engine on a constrained problem set. 
 
-We are actively seeking feedback and collaboration, particularly from researchers and engineers interested in post-transformer architectures and constitutional AI safety.
+We are actively seeking collaboration with researchers and engineers to build the "Toy Universe Engine PoC." If you have expertise in post-transformer architectures, geometric deep learning, or constitutional AI safety and are interested in contributing to a new paradigm, please reach out via the contact information below.
 
 ---
 
@@ -164,11 +172,22 @@ This work is formally available as a preprint on ResearchGate. We recommend citi
 
 ---
 
-## About
+## About & Contact
 
-**Contact**: <tonyjanus@gmail.com>
+This project is the work of Anthony Janus, an independent researcher in cognitive architecture and AGI. The framework is derived from a first-principles analysis of a unique, neurodivergent cognitive profile, validated by psychometric data and a recursive co-modeling protocol with advanced AI.
 
-**LinkedIn**: [LinkedIn - Anthony Janus](https://www.linkedin.com/in/anthony-janus)
+The author's background is not in traditional computer science or academia, but in the direct, phenomenological exploration of a meaning-driven mind. This has resulted in a novel, bio-inspired architecture that offers a fundamentally different path to safe and truthful AGI.
+
+<u>**Primary Point of Contact**</u>
+* **For strategic inquiries, collaborations, or media requests:**
+    * thecognitivearchitect@gmail.com
+
+<u>**General Contact**</u>
+* **Personal:**
+    * tonyjanus@gmail.com
+
+<u>**Professional Profile**</u>
+* **LinkedIn**: [Anthony Janus](https://www.linkedin.com/in/anthony-janus)
 
 ---
 
