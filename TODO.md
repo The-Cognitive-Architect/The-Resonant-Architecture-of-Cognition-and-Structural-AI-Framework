@@ -1,19 +1,20 @@
 # Project Roadmap & TODO (High-Level)
 
 **Status**: Pre-Alpha / Foundational Phase
+
 This document outlines the high-level roadmap. Specific technical details for many items are proprietary and withheld.
 
 ---
 
 ## Phase 0: Foundational Architecture (Complete)
 
-- [x] Establish core cognitive framework(The Resonant Architecture of Cognition)
+- [x] Establish core cognitive framework (*The Resonant Architecture of Cognition*)
 
-- [x] Publish initial whitepaper for Structural AI(v2.3)
+- [x] Publish initial whitepaper for Structural AI (v2.3)
 
-- [x] Release alignment layer proof-of-concept(chamber.py)
+- [x] Release alignment layer proof-of-concept (chamber.py)
 
-- [x] Outline hardware path(SimPU initial concept)
+- [x] Outline hardware path (SimPU initial concept)
 
 ---
 
@@ -61,7 +62,7 @@ This phase represents a significant expansion of the publicly documented paradig
 1. ***"Toy Universe" Geometric Engine - PoC***
 
     - **Status**: Scoping / Pre-development
-    - **Description**: Develop a minimal, end-to-end geometric engine to validate the "Meaning Painting" process in a constrained domain(e.g., symbolic logic, simple physics).
+    - **Description**: Develop a minimal, end-to-end geometric engine to validate the "Meaning Painting" process in a constrained domain (e.g., symbolic logic, simple physics).
     - **Dependency**: Requires engineering team with expertise in analog circuit simulation or computational geometry.
 
 ---
