@@ -17,11 +17,11 @@ This white paper introduces Structural Computing, a novel computational paradigm
 ## The Problem with Probabilistic AI
 Current Large Language Models (LLMs) are architecturally bound to three fundamental limitations:
 
-1. 🚨 **Unreliability & Hallucination**: As next-token predictors, they are designed for plausibility, not truth, making them fundamentally unreliable.
+1. **Unreliability & Hallucination**: As next-token predictors, they are designed for plausibility, not truth, making them fundamentally unreliable.
 
-2. ⛓️ **Alignment Fragility**: Safety is a "bolted-on" behavioral constraint, easily bypassed by adversarial attacks because the model has no intrinsic understanding of the rules.
+2. **Alignment Fragility**: Safety is a "bolted-on" behavioral constraint, easily bypassed by adversarial attacks because the model has no intrinsic understanding of the rules.
 
-3. ⚡ **Unsustainable Energy Costs**: The reliance on massive-scale matrix multiplications makes both training and inference economically and environmentally untenable.
+3. **Unsustainable Energy Costs**: The reliance on massive-scale matrix multiplications makes both training and inference economically and environmentally untenable.
 
 ---
 
@@ -61,18 +61,18 @@ The architecture was crafted using a **Recursive LLM Co-Modeling Protocol**, lev
 
 ---
 
-## 🚀 Getting Started: The Golden Path
+## Getting Started: The Golden Path
 There's a lot here. We recommend this path to understand the project:
 
-1. 📖 **Read the White Paper**: The core technical proposal. This is the blueprint for the entire AGI architecture.
+1. **Read the White Paper**: The core technical proposal. This is the blueprint for the entire AGI architecture.
 
     - ***`Janus_Structural-Computing-White-Paper_v2_2_2025-10-12.pdf`***
 
-2. ⚙️ **Run the Simulation**: See the alignment architecture in action. This Python script is a proof-of-concept that simulates the FSI and OMEF mechanisms.
+2. **Run the Simulation**: See the alignment architecture in action. This Python script is a proof-of-concept that simulates the FSI and OMEF mechanisms.
 
     - ***`chamber.py`***
 
-3. 🧠 **Explore the Cognitive Origins (Optional Deep Dive)**: Wondering where the FSI/OMEF model came from? It's not a sci-fi invention. It's grounded in a real, empirically validated cognitive framework.
+3. **Explore the Cognitive Origins (Optional Deep Dive)**: Wondering where the FSI/OMEF model came from? It's not a sci-fi invention. It's grounded in a real, empirically validated cognitive framework.
 
     - **The Synthesis**: Explains the complete cognitive model.
         - ***`03_Integration_How_All_the_Elements_Work_Together.pdf`*** 
@@ -85,7 +85,7 @@ There's a lot here. We recommend this path to understand the project:
 
 ---
 
-## 🏛️ Comprehensive Document Library (The Deep Dive)
+## Comprehensive Document Library (The Deep Dive)
 **The Resonant Architecture of Cognition**
 
 For those interested in the full genesis and detailed exploration of the cognitive framework that underpins the Structural AI model, this library provides a complete guide.
@@ -164,7 +164,7 @@ We are actively seeking collaboration with researchers and engineers to build th
 
 ---
 
-## 📖 Publication & Citation
+## Publication & Citation
 
 This work is formally available as a preprint on ResearchGate. We recommend citing this paper using the information provided there.
 
