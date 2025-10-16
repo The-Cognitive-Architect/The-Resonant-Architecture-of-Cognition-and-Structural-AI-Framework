@@ -1,4 +1,4 @@
-# Project Roadmap & TODO(High-Level)
+# Project Roadmap & TODO (High-Level)
 
 Status: Pre-Alpha / Foundational Phase
 This document outlines the high-level roadmap. Specific technical details for many items are proprietary and withheld.
@@ -33,15 +33,16 @@ This phase represents a significant expansion of the publicly documented paradig
 1. Grounded Reasoning Framework
     - Status: Conceptualized / Design Phase
     - Description: Architectural extensions to ground abstract reasoning in non-symbolic data streams.
+    - Viability: **Very High**
 
 2. Longitudinal Coherence Models
     - Status: Conceptualized / Design Phase
     - Description: Mechanisms for maintaining state and context across extended operational timelines.
+    - Viability: **High**
 
 3. Phase 2 Whitepaper
     - Status: Planned
     - Description: A follow-on paper detailing the architecture for these advanced capabilities.
-    - Viability: High.
 
 ---
 
