@@ -1,0 +1,2 @@
+# Citation
+Janus, A. (2025). Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models (2.4). Zenodo. https://doi.org/10.5281/zenodo.17399831
