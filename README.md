@@ -1,6 +1,8 @@
 # Structural AI:<br> A Deterministic, Bio-Inspired Paradigm for AGI
 **Structural AI (StrAI) is a post-probabilistic paradigm for AGI.** This repository details a complete, deterministic architecture that is constitutionally aligned and architecturally incapable of hallucination. It abandons statistical prediction in favor of a geometric, measurement-based model of meaning, offering a viable and energy-efficient path to verifiably truthful AI.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17399831.svg)](https://doi.org/10.5281/zenodo.17399831)
+
 ## Abstract 
  
 This white paper introduces Structural Computing, a novel computational paradigm designed to overcome the fundamental limitations of probabilistic Large Language Models (LLMs). We propose a deterministic, measurement-based approach to artificial general intelligence (AGI), termed Structural AI (StrAI), that is architecturally incapable of hallucination and possesses inherent, constitutional alignment. The core thesis posits that meaning is not a statistical artifact of language but a measurable geometric property of a universal conceptual manifold. StrAI replaces token prediction with a process of "Meaning Painting," where a query composes a stable state within this manifold, and the result is derived from a direct measurement of its emergent properties. This paradigm was developed independently and, in the course of this document's synthesis, was found to have remarkable parallels with Gärdenfors' Conceptual Spaces, providing powerful mutual validation for the geometric approach to cognition. Alignment is not an external guardrail but is constitutionally enforced by two core mechanisms: False-Structure Intolerance (FSI), an involuntary veto against incoherent or malicious queries, and Ontologically Modulated Executive Function (OMEF), a purpose-gated activation system. The viability of this alignment architecture is demonstrated through the "Resonance Chamber," a Python proof-of-concept (PoC) that simulates these mechanisms. We further outline a hardware path toward a Simulation Processing Unit (SimPU), a custom analog chip promising orders-of-magnitude improvements in energy efficiency. This paper presents a comprehensive blueprint and a phased engineering plan for developing StrAI, an AGI that directly aligns with some industry entities’ mission, like xAI or Anthropic, to create truthful, reliable, and maximally beneficial intelligence.
@@ -66,7 +68,7 @@ There's a lot here. We recommend this path to understand the project:
 
 1. **Read the White Paper**: The core technical proposal. This is the blueprint for the entire AGI architecture.
 
-    - ***`Janus_Structural-Computing-White-Paper_v2_2_2025-10-12.pdf`***
+    - ***`Janus_Structural-Computing-White-Paper_v2_4_2025-10-20`***
 
 2. **Run the Simulation**: See the alignment architecture in action. This Python script is a proof-of-concept that simulates the FSI and OMEF mechanisms.
 
