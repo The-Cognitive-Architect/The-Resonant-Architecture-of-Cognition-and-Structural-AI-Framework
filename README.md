@@ -201,3 +201,7 @@ See /LICENSE for the code (Apache-2.0) and /structural_AI_computing/LICENSE for 
 This is an open-source project intended to foster collaboration and accelerate the development of safe, truthful AGI.
 
 ---
+
+## Coming Soon
+
+WIP - 20-cell hardware prototype (by EoY 2025)
