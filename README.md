@@ -202,6 +202,18 @@ This is an open-source project intended to foster collaboration and accelerate t
 
 ---
 
-## Coming Soon
+## Where's the hardware?
 
-WIP - 20-cell hardware prototype (by EoY 2025)
+In case you're wondering what happened with the "EoY 2025" hardware goal but haven't read the Founder's Letter, the goal to finish the build before the new year turned out to be too ambitious.
+
+The hardware is under active development, and the design has grown beyond its initial scope. As of January 3rd 2026, the machine is conceived as a ~40‑node analog RC mesh with digitally controlled node‑to‑node links and per‑node capacitor banks, forming a mixed‑signal substrate that physically settles to stable attractor states. The digital control and analog dynamics are deliberately isolated, allowing the system to be driven, observed, and reconfigured without disturbing the underlying physical collapse.
+
+It is designed as a proof‑of‑concept platform for a deterministic, structure‑first AI architecture introduced in the accompanying whitepaper.
+
+I am currently acquiring parts to build the machine, but as a disabled, independent researcher, resources are tight and I'm looking into funding options. Unfortunately, this means the time required to produce results has to be extended.
+
+I will be putting together some ways for supporters to contribute, should anyone see value in the project and its goals. Once I've figured out how I'll be going about that, I'll update this repo with more information.
+
+I'd like to thank you all for your interest and support. I cannot express how grateful I am. 
+
+Thank you
