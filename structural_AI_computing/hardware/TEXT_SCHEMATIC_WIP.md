@@ -79,7 +79,7 @@ I apologize for the rough organization. As I’ve said elsewhere, I don’t have
   - Node Identity (self-referential): 25
 
 **Link Configurations**
-- **Node Identity Links** (from LM358P Op-Amp output):
+- **Node Identity Links**:
   - From LM358P Op-Amp output → 
   - 1kΩ safety floor resistor → 
   - 10kΩ potentiometer (trim) → 
