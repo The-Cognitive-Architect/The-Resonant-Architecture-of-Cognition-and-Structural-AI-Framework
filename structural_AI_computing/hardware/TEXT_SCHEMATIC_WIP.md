@@ -7,6 +7,14 @@ The system’s design currently lives in my head, and due to its complexity, it�
 
 I apologize for the rough organization. As I’ve said elsewhere, I don’t have a professional background, education, or training in this area. I’m learning how to manage and document a project like this as I go. Thank you for your patience as this takes shape.
 
+## License for This Hardware Documentation
+The schematics, BOM, wiring details, and related hardware design files in this directory are licensed under the **CERN Open Hardware Licence Version 2.0 – Permissive** (CERN-OHL-P v2).  
+See [HARDWARE_LICENSE.md](HARDWARE_LICENSE.md) or https://cern.ch/cernohl for the full text.
+
+This is separate from:
+- Code in the repo: Apache 2.0
+- Whitepaper/docs: CC BY 4.0
+
 ## Overview
 - Operates at ±5V range (10V total delta)
 - Controller: Raspberry Pi Pico 2 (RP2350) as Node Group Controllers
