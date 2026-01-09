@@ -48,7 +48,7 @@ I apologize for the rough organization. As I’ve said elsewhere, I don’t have
 - 4.7µF: 1× Panasonic ECE-A1HN4R7UB Non-Polar Electrolytic
 - 47µF: 1× Generic Non-Polar Electrolytic
 - 470µF: 1× Panasonic ECE-A1EN471U Non-Polar Electrolytic
-- 4870µF: 2× Panasonic ECE-A1EN222U + 1× Panasonic ECE-A1EN471U Non-Polar Electrolytic
+- 4870µF: 2× Panasonic ECE-A1EN222U (2200µF) + 1× Panasonic ECE-A1EN471U (470µF) Non-Polar Electrolytic
 
 **Hot-Swap Circuit (per capacitor)**
 - 1× CD4066DN (8 per node, 2 switches per leg)
