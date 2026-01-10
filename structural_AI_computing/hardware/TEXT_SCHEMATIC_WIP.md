@@ -49,12 +49,12 @@ This is separate from:
 - Branch B → Capacitor Bank Sub-System
 
 #### Capacitor Bank (8 Decade Steps, Parallel Hot-Swap)
-- 470pF: 1× Vishay D471K20Y5PH6UJ5R Ceramic Y5P
+- 470pF: 1× TDK Corporation FG28C0G1H471JNT00 C0G
 - 0.0047µF: 1× KEMET PHE426DJ4470JR05 Film
 - 0.047µF: 1× KEMET PHE426DJ5470JR05 Film
 - 0.47µF: 1× Panasonic ECW-FD2W474K Film
 - 4.7µF: 1× Panasonic ECE-A1HN4R7UB Non-Polar Electrolytic
-- 47µF: 1× Generic Non-Polar Electrolytic
+- 47µF: 1× Panasonic ECE-A1EN470UB Non-Polar Electrolytic
 - 470µF: 1× Panasonic ECE-A1EN471U Non-Polar Electrolytic
 - 4870µF: 2× Panasonic ECE-A1EN222U (2200µF) + 1× Panasonic ECE-A1EN471U (470µF) Non-Polar Electrolytic
 
