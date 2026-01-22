@@ -25,28 +25,28 @@ This is separate from:
 ### 25 × Primary Active Nodes
 #### V_source “Generator” Path
 - ±9V Rails (from 7809/7909 regulators) → 
-- MCP4131-103 Digital Potentiometer (0–5V output) → 
+- MCP4131-103 Digipot (*sets 0–5V control level via divider/reference*) → 
 - 10kΩ Resistor → 
-- LM358P Op-Amp (0–5V in → ±5V out) → 
+- LM358P Op-Amp (biased level-shift / scaling stage; maps 0–5V control into the mesh’s ±5V domain) → 
   - Feedback: 20kΩ resistor
   - Bias: 36kΩ resistor
 - 1kΩ Safety Floor Resistor → 
 - 10kΩ 3296 Potentiometer (trim) → 
 - Capacitor Bank
 
-#### V_listen “Sensor” Path (also serves as mirrored pre-charge)
+#### V_listen “Sensor” Path (Branch A stays ±5V [for cap bank pre-charge]; Branch B is ADC-scaled)
 - Node output (±5V) → 
 - LM358P Voltage Follower → 
   - Non-inverting input (Pin 3): Node output
   - Inverting input (Pin 2) jumpered to output (Pin 1)
   - +9V to V+ (Pin 8), -9V to V- (Pin 4)
+- Branch A → Capacitor Bank Pre-Charge Sub-System
 - 36kΩ Resistor → 
 - LM358P Scaling Amp (±5V in → ~0–3.3V out) → 
   - Reference: +1.65V (27kΩ to +3.3V / 27kΩ to GND → midpoint at non-inverting input)
   - Feedback: 10kΩ
   - Safety: 20kΩ on output to ATTINY
-- Branch A → ATTINY1616 Analog Input (ADC)
-- Branch B → Capacitor Bank Sub-System
+- Branch B → ATTINY1616 Analog Input (ADC)
 
 #### Capacitor Bank (8 Decade Steps, Parallel Hot-Swap)
 - 470pF: 1× TDK Corporation FG28C0G1H471JNT00 C0G
@@ -80,25 +80,61 @@ This is separate from:
   - Node Controller identical (for local regulation and communication)
 
 ### Node Links
-- **Total**: 185 bi-directional links
+- **Baseline mesh links (passive bi-directional LDR links)**: 185 total
   - Node-to-Node: 72
   - Node-to-Composite: 64
   - Composite-to-Composite: 24
   - Node Identity (self-referential): 25
 
+- **Turbine overlay (two unilateral channels added per inter-node mesh link; excludes identity links)**:
+
+  ***Note**: Via this addition, each inter-node mesh link becomes: 1 passive bi-directional path + 2 independently switchable unilateral turbine paths*
+
+  - Inter-node mesh links eligible for turbines: 160 (72 + 64 + 24)
+  - Unilateral turbine channels added: 320 total (A→B and B→A per link)
+
 **Link Configurations**
-- **Node Identity Links**:
+- **V_source↔Node Identity Links**:
   - From LM358P Op-Amp output → 
   - 1kΩ safety floor resistor → 
   - 10kΩ potentiometer (trim) → 
   - GL5537 LDR (controlled by 5V Blue LED via 3D-printed isolation tube) → 
   - → Capacitor Bank
-- **Node-to-Node / Node-to-Composite Links**:
+- **Node↔Node / Node↔Composite / Composite↔Composite Links**:
   - From Node output → 
   - 1kΩ safety floor resistor → 
   - 10kΩ potentiometer (trim) → 
   - GL5537 LDR (controlled by 5V Blue LED via 3D-printed isolation tube) → 
   - → Neighbor Node / Composite
+
+- **Turbine Link Upgrade (per existing Node↔Node / Node↔Composite / Composite↔Composite link A↔B; excludes V_source↔Node Identity links)** - 01/22/2026:
+  - The original **passive bi-directional** LDR link remains in place:
+    - From Node A output →
+    - 1kΩ safety floor resistor →
+    - 10kΩ potentiometer (trim) →
+    - GL5537 LDR (5V blue LED, light-tight isolation tube) →
+    - → Node B
+    - (This passive path can be effectively “opened” by commanding high resistance.)
+
+  - Add two **independently switchable unilateral** (“turbine”) channels in parallel:
+    - **A → B turbine channel**:
+      - From Node A output (±5V) →
+      - Dedicated LM324N channel configured as a voltage follower (powered by ±9V rails; unity buffer of Node A signal) →
+      - CD4066 switch (gated by CD4094 shift-register control) →
+        - *One CD4066 provides four independent turbine-gates (4 channels); allocate channels accordingly.*
+      - 10kΩ series resistor (static, 1% metal film) →
+      - GL5537 LDR (driven by PWM → transistor + RC smoothing → 5V blue LED) →
+      - → Node B
+
+    - **B → A turbine channel**:
+      - From Node B output (±5V) →
+      - Dedicated LM324N channel configured as a voltage follower (powered by ±9V rails; unity buffer of Node B signal) →
+      - CD4066 switch (gated by CD4094 shift-register control) →
+        - *One CD4066 provides four independent turbine-gates (4 channels); allocate channels accordingly.*
+      - 10kΩ series resistor (static, 1% metal film) →
+      - GL5537 LDR (driven by PWM → transistor + RC smoothing → 5V blue LED) →
+      - → Node A
+
 
 **Notes**
 - All values and configurations are subject to change during testing and calibration.
