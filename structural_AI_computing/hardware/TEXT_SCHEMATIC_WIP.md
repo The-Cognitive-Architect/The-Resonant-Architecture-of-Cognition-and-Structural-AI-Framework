@@ -1,7 +1,7 @@
 # Core System – Reservoir Analog RC Mesh
 
 **This document is a work in progress.**  
-*Updated: January 9, 2026 @ 6:30 AM CST*
+*Updated: January 22, 2026 @ 10:25 pM CST*
 
 The system’s design currently lives in my head, and due to its complexity, it’s taking time to get everything written down. The core mesh is mostly documented, but there may be minor mistakes or omissions that will be corrected in the coming days. Additional subsystems will be added as they’re finalized.
 
@@ -120,19 +120,19 @@ This is separate from:
     - **A → B turbine channel**:
       - From Node A output (±5V) →
       - Dedicated LM324N channel configured as a voltage follower (powered by ±9V rails; unity buffer of Node A signal) →
-      - CD4066 switch (gated by CD4094 shift-register control) →
-        - *One CD4066 provides four independent turbine-gates (4 channels); allocate channels accordingly.*
       - 10kΩ series resistor (static, 1% metal film) →
       - GL5537 LDR (driven by PWM → transistor + RC smoothing → 5V blue LED) →
+      - CD4066 switch (gated by CD4094 shift-register control) →
+        - *One CD4066 provides four independent turbine-gates (4 channels); allocate channels accordingly.*
       - → Node B
 
     - **B → A turbine channel**:
       - From Node B output (±5V) →
       - Dedicated LM324N channel configured as a voltage follower (powered by ±9V rails; unity buffer of Node B signal) →
-      - CD4066 switch (gated by CD4094 shift-register control) →
-        - *One CD4066 provides four independent turbine-gates (4 channels); allocate channels accordingly.*
       - 10kΩ series resistor (static, 1% metal film) →
       - GL5537 LDR (driven by PWM → transistor + RC smoothing → 5V blue LED) →
+      - CD4066 switch (gated by CD4094 shift-register control) →
+        - *One CD4066 provides four independent turbine-gates (4 channels); allocate channels accordingly.*
       - → Node A
 
 
