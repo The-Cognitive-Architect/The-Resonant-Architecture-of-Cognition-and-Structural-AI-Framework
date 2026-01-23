@@ -1,7 +1,7 @@
 # Core System – Reservoir Analog RC Mesh
 
 **This document is a work in progress.**  
-*Updated: January 22, 2026 @ 10:25 pM CST*
+*Updated: January 22, 2026 @ 10:25 PM CST*
 
 The system’s design currently lives in my head, and due to its complexity, it’s taking time to get everything written down. The core mesh is mostly documented, but there may be minor mistakes or omissions that will be corrected in the coming days. Additional subsystems will be added as they’re finalized.
 
