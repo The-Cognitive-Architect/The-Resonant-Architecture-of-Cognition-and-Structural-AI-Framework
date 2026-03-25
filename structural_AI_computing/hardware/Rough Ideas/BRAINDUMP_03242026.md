@@ -284,7 +284,7 @@ Two independent systems working together:
 
 **Capacitance range:** From 470pF (nanosecond-scale time constants) to 4870µF (second-scale time constants). The mesh simultaneously operates at radically different timescales across nodes and cap positions. Fast and slow dynamics coexist and interact physically.
 
-**Memory stack hierarchy:** EEPROM (permanent, DNA-equivalent), NOR Flash (mid-term, high-read), PSRAM (working, high-write scratchpad), HDD (long-term vectorized history). The memory stack IS the multi-timescale temporal architecture. From millisecond working memory to permanent structural encoding — all timescales simultaneously present and causally connected.
+**Memory stack hierarchy:** EEPROM (permanent, DNA-equivalent), NOR Flash (mid-term, high-read), PSRAM1 (working, high-write scratchpad), PSRAM2 → HDD (long-term vectorized history). The memory stack IS the multi-timescale temporal architecture. From millisecond working memory to permanent structural encoding — all timescales simultaneously present and causally connected.
 
 These two systems together mean the architecture operates across at least 12+ orders of magnitude of temporal depth simultaneously. Fast cap dynamics inform slow memory consolidation; long-term memory signatures bias fast real-time mesh settling.
 
