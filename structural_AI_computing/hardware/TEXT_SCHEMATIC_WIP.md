@@ -32,6 +32,7 @@ This is separate from:
   - Bias: 36kΩ resistor
 - 1kΩ Safety Floor Resistor → 
 - 10kΩ 3296 Potentiometer (trim) → 
+- GL5537 LDR (controlled by 3.3V 20,000mcd White LED via 3D-printed isolation tube) →
 - Capacitor Bank
 
 #### V_listen “Sensor” Path (Branch A stays ±5V [for cap bank pre-charge]; Branch B is ADC-scaled)
@@ -98,13 +99,13 @@ This is separate from:
   - From LM358P Op-Amp output → 
   - 1kΩ safety floor resistor → 
   - 10kΩ potentiometer (trim) → 
-  - GL5537 LDR (controlled by 5V Blue LED via 3D-printed isolation tube) → 
+  - GL5537 LDR (controlled by 3.3V 20,000mcd White via 3D-printed isolation tube) → 
   - → Capacitor Bank
 - **Node↔Node / Node↔Composite / Composite↔Composite Links**:
   - From Node output → 
   - 1kΩ safety floor resistor → 
   - 10kΩ potentiometer (trim) → 
-  - GL5537 LDR (controlled by 5V Blue LED via 3D-printed isolation tube) → 
+  - GL5537 LDR (controlled by 3.3V 20,000mcd White LED via 3D-printed isolation tube) → 
   - → Neighbor Node / Composite
 
 - **Turbine Link Upgrade (per existing Node↔Node / Node↔Composite / Composite↔Composite link A↔B; excludes V_source↔Node Identity links)** - 01/22/2026:

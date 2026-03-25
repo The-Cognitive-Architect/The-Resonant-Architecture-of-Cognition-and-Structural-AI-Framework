@@ -1,7 +1,18 @@
 # Structural AI:<br> A Deterministic, Bio-Inspired Paradigm for AGI
 **Structural AI (StrAI) is a post-probabilistic paradigm for AGI.** This repository details a complete, deterministic architecture that is constitutionally aligned and architecturally incapable of hallucination. It abandons statistical prediction in favor of a geometric, measurement-based model of meaning, offering a viable and energy-efficient path to verifiably truthful AI.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17399831.svg)](https://doi.org/10.5281/zenodo.17399831)
+### Published Works & Media
+- ***Structural Computing for Deterministic AGI: A Constitutionally Aligned, Energy-Efficient Alternative to Probabilistic Models***:
+
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17399831.svg)](https://doi.org/10.5281/zenodo.17399831)
+
+- ***The Janus Thesis: A Foundational Position Paper on Structural Cognition***:
+
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19066376.svg)](https://doi.org/10.5281/zenodo.19066376)
+
+- ***YouTube - @Anthony_Janus - Project Media***
+
+  https://www.youtube.com/@Anthony_Janus
 
 ## Abstract 
  
