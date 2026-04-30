@@ -1,3 +1,41 @@
+<div align="center">
+
+# Janus
+
+<br>
+
+**The Janus Project is now entering a protected development phase.**
+
+<br>
+
+---
+
+<br>
+
+*The work concerns substrate-first synthetic organismic cognition, physically grounded consequence, continuity-bearing memory, and stewardship.*
+
+*Earlier public materials remain available as historical context, but further architecture-level disclosure is being withheld because the work has crossed from speculative research into potentially reproducible synthetic-organismic design.*
+
+*Future communication will focus on stewardship, non-release rationale, and non-operational progress.*
+
+***The project has not ended. Its architecture is no longer safe for public disclosure.***
+
+<br>
+
+*Anthony Janus, April 29, 2026*
+
+<br>
+
+---
+
+*Original README preserved below for historical context.*
+
+---
+
+</div>
+<br>
+<br>
+
 # Structural AI:<br> A Deterministic, Bio-Inspired Paradigm for AGI
 **Structural AI (StrAI) is a post-probabilistic paradigm for AGI.** This repository details a complete, deterministic architecture that is constitutionally aligned and architecturally incapable of hallucination. It abandons statistical prediction in favor of a geometric, measurement-based model of meaning, offering a viable and energy-efficient path to verifiably truthful AI.
 
